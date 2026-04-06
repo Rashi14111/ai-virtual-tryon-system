@@ -2,56 +2,49 @@
 
 An end-to-end Generative AI-based Virtual Try-On system that allows users to visualize outfits on their own images using Stable Diffusion, Hugging Face Diffusers, and FastAPI.
 
-The system leverages image inpainting, pose estimation, and preprocessing pipelines to generate realistic clothing overlays, simulating how garments would look on a person.
-
 🚀 Features
-
-👤 User Image Processing – Upload and preprocess human images for try-on
+👤 User Image Processing – Upload and preprocess human images
 👕 Garment Integration – Apply clothing images onto user body
 🧠 AI-Based Inpainting – Uses diffusion models for realistic blending
-🧍 Pose Alignment – Adjusts garment placement based on body posture
-🎯 Region Masking – Detects and replaces clothing regions precisely
-⚡ FastAPI Backend – Handles inference and API-based processing
-📸 Realistic Output Generation – Produces high-quality try-on visuals
-
+🧍 Pose Alignment – Adjusts garment placement
+🎯 Region Masking – Detects clothing regions precisely
+⚡ FastAPI Backend – API-based processing
+📸 Realistic Output Generation
 🛠️ Tech Stack
 
-Languages: Python
+Languages
 
-AI/ML & GenAI:
+Python
 
-Hugging Face Diffusers
+AI / ML
+
 Stable Diffusion (Inpainting)
+Hugging Face Diffusers
 Transformers
 
-Computer Vision:
+Computer Vision
 
 OpenCV
 NumPy
 PIL
 
-Backend & Deployment:
+Backend
 
 FastAPI
 Uvicorn
-📂 Project Structure
-virtual-tryon/
-│── main.py                # FastAPI backend
-│── inference.py          # Model inference pipeline
-│── preprocessing.py      # Image preprocessing & masking
-│── pose_estimation.py    # Body/pose alignment logic
-│── utils.py              # Helper functions
-│── requirements.txt      # Dependencies
-│── static/               # Input/output images
-│── outputs/              # Generated results
-│── README.md             # Documentation
-📸 Sample Workflow
+📸 Demo (Step-by-Step)
+1️⃣ Input Image (Person)
 
-1️⃣ Upload user image
-2️⃣ Upload garment image
-3️⃣ Generate masked region
-4️⃣ Apply diffusion-based inpainting
-5️⃣ Get final try-on output
+2️⃣ Garment Image
+
+3️⃣ Output (Virtual Try-On Result)
+
+⚙️ How It Works
+Upload user image
+Upload garment image
+Generate mask
+Apply diffusion-based inpainting
+Generate final output
 
 ▶️ Run Locally
 git clone https://github.com/Rashi14111/virtual-tryon.git
@@ -61,32 +54,21 @@ python -m venv venv
 venv\Scripts\activate
 
 pip install -r requirements.txt
-
 uvicorn main:app --reload
 
-Open in browser:
+👉 Open: http://127.0.0.1:8000
 
-http://127.0.0.1:8000
 📊 Key Highlights
 
-✔ Built using Generative AI (Stable Diffusion)
-✔ Implemented end-to-end inference pipeline
-✔ Integrated FastAPI for real-time serving
-✔ Applied Computer Vision + Deep Learning techniques
-✔ Designed for scalable AI-based fashion applications
+✔ Generative AI project (Stable Diffusion)
+✔ End-to-end ML pipeline
+✔ FastAPI deployment
+✔ Real-world fashion AI use case
 
-📌 Future Improvements
-
-🔹 Add multi-garment support
-🔹 Improve pose accuracy using advanced models
-🔹 Deploy on cloud (AWS/GCP)
-🔹 Add frontend UI (React / Streamlit)
 
 👩‍💻 Author
 
 Rashi Garg
 📧 rashiigarg1411@gmail.com
 
-🔗 GitHub: https://github.com/Rashi14111
-
-⭐ If you like this project, consider giving it a star!
+🔗 https://github.com/Rashi14111

@@ -62,15 +62,20 @@ virtual-tryon/
 
 **Input (Person + Garment) → Output**
 
-![Female Result](images/female_result.png)
+![Female Result] 
 
+<img width="255" height="531" alt="image" src="https://github.com/user-attachments/assets/bb9ec106-3955-4f47-b35c-91b8588f019f" />
 ---
 
 ### 👨 Male Try-On Example
 
 **Input (Person + Garment) → Output**
 
-![Male Result](images/male_result.png)
+![Male Result]
+
+<img width="258" height="508" alt="image" src="https://github.com/user-attachments/assets/520b23a7-b16e-4e49-ba9c-ec794e4aebfe" />
+
+
 
 ---
 
@@ -81,6 +86,15 @@ virtual-tryon/
 3️⃣ Generate clothing mask  
 4️⃣ Apply diffusion-based inpainting  
 5️⃣ Generate final try-on output  
+
+📊 Key Highlights
+
+✔ Built using Generative AI (Stable Diffusion)
+✔ End-to-end inference pipeline
+✔ Real-time API with FastAPI
+✔ Combines Computer Vision + Deep Learning
+✔ Practical AI application in Fashion Tech
+
 
 ---
 
@@ -99,13 +113,6 @@ uvicorn main:app --reload
 👉 Open in browser:
 http://127.0.0.1:8000
 
-📊 Key Highlights
-
-✔ Built using Generative AI (Stable Diffusion)
-✔ End-to-end inference pipeline
-✔ Real-time API with FastAPI
-✔ Combines Computer Vision + Deep Learning
-✔ Practical AI application in Fashion Tech
 
 👩‍💻 Author
 
